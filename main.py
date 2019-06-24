@@ -27,10 +27,10 @@ class Frames(object):
         self.diabetes = StringVar()  # diabetes
         self.diabetes.set(None)
 
-        label_0 = Label(root, text="Savior of the Heart", width=38, font=("Chiller", 60), foreground='#8e160f')
+        label_0 = Label(root, text="Savior of the Heart", width=38, font=("Calibri", 43), foreground='#8e160f')
         label_0.place(x=120, y=20)
         label_11 = Label(root, text="Machine learning approach for determining the risk of having ASCVD in 10 years ",
-                         width=70, foreground='black', font=("Ink Free", 20))
+                         width=70, foreground='black', font=("Arial", 20))
         label_11.place(x=120, y=100)
 
         label_2 = Label(root, text="What is your Age? \n (applicable only for age range: 30-74)", width=30,

@@ -34,4 +34,5 @@ def random_forest(sex, age, SBP, TOH, smoke , diabetes, HDL, TDL):
     regressor = RandomForestRegressor(n_estimators=100, random_state=0)
     regressor.fit(X_train, y_train)
     y_pred = regressor.predict([[sex, TOH, smoke, diabetes, age, SBP, HDL, TDL]])
+    
     return(y_pred)
